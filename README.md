@@ -1,2 +1,3 @@
 # zscore-wiki
-This repository contains the user guide and issue tracker for zscore.lk exam prep platform
+
+This repository contains the About Us, FAQ, Blog and issue tracker for zscore.lk exam prep platform
