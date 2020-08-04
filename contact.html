@@ -45,7 +45,7 @@
   <div class="ui vertical inverted sidebar menu">
     <a class="item" href="index.html">Home</a>
     <a class="item" href="FAQ.html">FAQ</a>
-    <a class="item">Blog</a>
+    <a class="item" href="Blog3.html">Blog</a>
     <a class="item">About</a>
     <a class=" active item">Contact</a>
     <a class="item" href="https://zscore.lk/Basic.action">Back to Zscore</a>
@@ -59,7 +59,7 @@
           </a>
           <a class="item" href="index.html">Home</a>
           <a class="item" href="FAQ.html">FAQ</a>
-          <a class="item">Blog</a>
+          <a class="item" href="Blog3.html">Blog</a>
           <a class="item">About</a>
           <a class="active item">Contact</a>
           <a href="https://zscore.lk/Basic.action" class="item">Back to Zscore</a>
@@ -90,7 +90,7 @@
           <div class="column">
             <h3 id="mainp1">You can contact Zscore administrators through followings</h3>
             <img src="woman.png" alt="avatar of an assistant" style="height: 180px; width: auto;">
-            <div class="ui list" >
+            <div class="ui list">
               <div class="row">
                 <div class=" column" style="padding-top: 0em;">
                   <div class="item">
@@ -124,83 +124,51 @@
           <div class="column">
             <div class="ui message">
               <div class="header">
-                Give us a feedback 
+                Give us a feedback
               </div>
               <p>This really helps us to improve our website for the better.</p>
             </div>
 
+            <form name="form1" action="#">
+              <input type="text" id="fname" name="text1" placeholder="First name">
+            </form>
+            <form name="form2" action="#">
+              <input type="text" id="lname" name="text2" placeholder="Last name">
+            </form>
+            <form name="form3" action="#">
+              <input type="text" id="emaiUser" name="text3" placeholder="Email">
+            </form>
 
 
-            <style>
-              input[type=text],
-              select {
-                width: 100%;
-                padding: 12px 20px;
-                margin: 8px 1px;
-                display: inline-block;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                box-sizing: border-box;
-              }
-
-              input[type=submit] {
-                width: 100%;
-                background-color: #B9ADCD;
-                color: white;
-                padding: 14px 20px;
-                margin: 0px 0px;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-              }
-
-              input[type=submit]:hover {
-                background-color: #5321A4;
-              }
+            <select id="School" name="School">
+              <option value="H.Taxila">H.Taxila</option>
+              <option value="Ananda">Ananda</option>
+              <option value="Royal">Royal</option>
+            </select>
+            <input type="text" id="lname" name="lastname" placeholder="feedback">
 
 
-              .mydiv {
-                border-radius: 5px;
-                background-color: #FFFFFF;
-                padding: 20px;
-              }
-            </style>
-
-            <mydiv>
-
-
-              <input type="text" id="fname" name="firstname" placeholder="First name">
-
-              <input type="text" id="lname" name="lastname" placeholder="Last name">
-
-              <select id="School" name="School">
-                <option value="H.Taxila">H.Taxila</option>
-                <option value="Ananda">Ananda</option>
-                <option value="Royal">Royal</option>
-              </select>
-              <input type="text" id="lname" name="lastname" placeholder="feedback">
-              </form>
-            </mydiv>
 
 
 
 
             <!--input type="submit" value="Submit"-->
-            <div class="ui blue labeled submit icon button">
+            <div class="ui blue labeled submit icon button"
+              onclick="ValidateFname(document.form1.text1);ValidateLname(document.form2.text2);ValidateEmail(document.form3.text3);">
               <i class="icon edit"></i> Submit
             </div>
 
 
 
-            </form>
-            
+
+
           </div>
         </div>
       </div>
       <div class="ui message" style="margin: 0em;">
         <div class="header" style="text-align: center; font-size: 25px;">
-           Thank You for your support
-        </div>       
+          Thank You for your support
+        </div>
       </div>
 
     </div>
@@ -224,17 +192,17 @@
           </div>
           <div class="seven wide column">
             <h4 class="ui inverted header">Follow us</h4>
-            <p>Follow us on social media.</p>           
-              <button class="ui circular facebook icon button">
-                <i class="facebook icon"></i>
-              </button>
-              </button>
-              <button class="ui circular twitter icon button">
-                <i class="twitter icon"></i>
-              </button>
-              <button class="ui circular youtube icon button">
-                <i class="youtube icon"></i>
-              </button>            
+            <p>Follow us on social media.</p>
+            <button class="ui circular facebook icon button">
+              <i class="facebook icon"></i>
+            </button>
+            </button>
+            <button class="ui circular twitter icon button">
+              <i class="twitter icon"></i>
+            </button>
+            <button class="ui circular youtube icon button">
+              <i class="youtube icon"></i>
+            </button>
           </div>
         </div>
       </div>
