@@ -1,8 +1,8 @@
-.about.container {
+.container {
     margin: 2rem;
 }
 
-.about-header {
+.container-header {
     font-family: "Spectral";
     font-size: 2.5em;
     text-align: left;
