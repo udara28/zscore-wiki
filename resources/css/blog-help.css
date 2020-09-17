@@ -1,0 +1,38 @@
+.header1 {
+	color:#59e013;
+	font-size:175px;
+	font-family:"Ceviche One";
+}
+
+.container1 {
+	color:black;
+	padding:30;							 
+	font-size:20px;
+	
+}
+
+.container2 {
+	color:black;
+	padding:30;                          
+	font-size:20px;
+}
+
+#padding {
+		margin-bottom: 20px;
+		
+}
+
+
+#first1 {
+		background:#0099ff;
+		
+}
+
+#first2 {
+		background:#ffff4d;
+}
+
+#event1 {
+		background-color:#333333;
+		width:20em;
+}
